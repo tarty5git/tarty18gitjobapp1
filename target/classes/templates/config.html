@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --theme-primary: #0d6efd; --theme-background: #f4f6f9; }
+        body { background-color: var(--theme-background); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .bg-primary { background-color: var(--theme-primary) !important; }
+        .text-primary { color: var(--theme-primary) !important; }
+        .theme-option { border: 2px solid transparent; cursor: pointer; transition: border-color .15s ease, transform .15s ease; }
+        .theme-option:hover, .theme-option.selected { border-color: var(--theme-primary); transform: translateY(-2px); }
+        .theme-swatch { height: 56px; border-radius: 6px; }
+        .config-panel { max-width: 720px; margin: 4rem auto; border: 0; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.06); }
+        .navbar-brand { font-weight: 700; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="/"><i class="fa-solid fa-briefcase me-2"></i>Job Listing Tracker</a>
+            <div>
+                <a class="btn btn-outline-light btn-sm" href="/"><i class="fa-solid fa-chart-line me-1"></i> Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="config-notification" class="alert d-none mb-4" role="status" aria-live="polite"></div>
+        <section class="card config-panel">
+            <div class="card-body p-4 p-md-5">
+                <h1 class="h3 text-primary"><i class="fa-solid fa-sliders me-2"></i>Admin Settings</h1>
+                <p class="text-muted">Manage your applicant details and dashboard preferences.</p>
+                <h2 class="h5 mt-4">Applicant details</h2>
+                <form id="applicant-form" class="row g-3" enctype="multipart/form-data">
+                    <div class="col-12 col-md-6">
+                        <label for="fullName" class="form-label">Full name</label>
+                        <input id="fullName" name="fullName" class="form-control" maxlength="150" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" name="email" type="email" class="form-control" maxlength="320" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input id="phone" name="phone" type="tel" class="form-control" maxlength="50">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="location" class="form-label">Location</label>
+                        <input id="location" name="location" class="form-control" maxlength="150">
+                    </div>
+                    <div class="col-12">
+                        <label for="linkedinUrl" class="form-label">LinkedIn profile URL</label>
+                        <input id="linkedinUrl" name="linkedinUrl" type="url" class="form-control" maxlength="500">
+                    </div>
+                    <div class="col-12">
+                        <label for="workAuthorization" class="form-label">Work authorization</label>
+                        <input id="workAuthorization" name="workAuthorization" class="form-control" maxlength="150" placeholder="For example: Authorized to work in the United States">
+                    </div>
+                    <div class="col-12">
+                        <label for="cv" class="form-label">CV / Resume</label>
+                        <input id="cv" name="cv" type="file" class="form-control" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                        <div id="cv-current" class="form-text">No CV uploaded yet. PDF or Word document, up to 10 MB.</div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk me-1"></i>Save applicant details</button>
+                    </div>
+                </form>
+                <hr class="my-4">
+                <h2 class="h5">Dashboard theme</h2>
+                <p class="text-muted">Choose the dashboard color theme.</p>
+                <div id="theme-options" class="row g-3" role="radiogroup" aria-label="Color themes">
+                    <div class="col-12 col-sm-6"><button type="button" class="theme-option card w-100 text-start p-2" data-theme="ocean"><div class="theme-swatch" style="background:#0d6efd"></div><strong class="d-block mt-2">Ocean</strong></button></div>
+                    <div class="col-12 col-sm-6"><button type="button" class="theme-option card w-100 text-start p-2" data-theme="forest"><div class="theme-swatch" style="background:#198754"></div><strong class="d-block mt-2">Forest</strong></button></div>
+                    <div class="col-12 col-sm-6"><button type="button" class="theme-option card w-100 text-start p-2" data-theme="sunset"><div class="theme-swatch" style="background:#d95f02"></div><strong class="d-block mt-2">Sunset</strong></button></div>
+                    <div class="col-12 col-sm-6"><button type="button" class="theme-option card w-100 text-start p-2" data-theme="plum"><div class="theme-swatch" style="background:#6f42c1"></div><strong class="d-block mt-2">Plum</strong></button></div>
+                    <div class="col-12 col-sm-6"><button type="button" class="theme-option card w-100 text-start p-2" data-theme="slate"><div class="theme-swatch" style="background:#495057"></div><strong class="d-block mt-2">Slate</strong></button></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const notification = document.getElementById('config-notification');
+        function showNotification(message, type) {
+            notification.textContent = message;
+            notification.className = 'alert alert-' + type;
+        }
+
+        const themes = {
+            ocean: ['#0d6efd', '#f4f6f9'], forest: ['#198754', '#f1f7f3'],
+            sunset: ['#d95f02', '#fff7ed'], plum: ['#6f42c1', '#f8f4fc'], slate: ['#495057', '#f1f3f5']
+        };
+        function applyTheme(theme) {
+            const colors = themes[theme] || themes.ocean;
+            document.documentElement.style.setProperty('--theme-primary', colors[0]);
+            document.documentElement.style.setProperty('--theme-background', colors[1]);
+            document.querySelectorAll('.theme-option').forEach(option => {
+                const selected = option.dataset.theme === theme;
+                option.classList.toggle('selected', selected);
+                option.setAttribute('aria-checked', selected);
+            });
+        }
+        applyTheme(localStorage.getItem('dashboardTheme') || 'ocean');
+        document.querySelectorAll('.theme-option').forEach(option => option.addEventListener('click', () => {
+            localStorage.setItem('dashboardTheme', option.dataset.theme);
+            applyTheme(option.dataset.theme);
+            showNotification('Theme updated.', 'success');
+        }));
+
+        async function loadApplicantProfile() {
+            const response = await fetch('/api/v1/config/applicant');
+            if (!response.ok) throw new Error('Unable to load applicant details.');
+            const profile = await response.json();
+            ['fullName', 'email', 'phone', 'location', 'linkedinUrl', 'workAuthorization'].forEach(field => {
+                document.getElementById(field).value = profile[field] || '';
+            });
+            if (profile.cvFilename) {
+                document.getElementById('cv-current').textContent = 'Current CV: ' + profile.cvFilename + '. Choose a new file to replace it.';
+            }
+        }
+
+        document.getElementById('applicant-form').addEventListener('submit', async event => {
+            event.preventDefault();
+            const response = await fetch('/api/v1/config/applicant', {
+                method: 'POST',
+                body: new FormData(event.target)
+            });
+            const result = await response.json();
+            if (!response.ok) {
+                showNotification(result.message || 'Unable to save applicant details.', 'danger');
+                return;
+            }
+            showNotification(result.message, 'success');
+            if (result.cvFilename) document.getElementById('cv-current').textContent = 'Current CV: ' + result.cvFilename + '. Choose a new file to replace it.';
+            document.getElementById('cv').value = '';
+        });
+
+        loadApplicantProfile().catch(error => showNotification(error.message, 'danger'));
+    </script>
+</body>
+</html>

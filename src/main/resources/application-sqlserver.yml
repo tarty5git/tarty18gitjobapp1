@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:sqlserver://localhost:1433;databaseName=linkedinbotdb;encrypt=true;trustServerCertificate=true}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: ${SPRING_DATASOURCE_USERNAME:sa}
+    password: ${SPRING_DATASOURCE_PASSWORD:YourPassword123!}
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
