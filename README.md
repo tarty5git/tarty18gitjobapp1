@@ -97,6 +97,40 @@ chmod +x start.sh stop.sh
 ./stop.sh
 ```
 
+### Docker
+
+Requirements on the deployment host: Docker Engine and the Docker Compose
+plugin. Build the image on a machine with internet access, then export it:
+
+```bash
+docker compose build
+docker save -o linkedin-job-bot-image.tar linkedin-job-bot:1.0.0
+```
+
+Transfer `linkedin-job-bot-image.tar` and `compose.yaml` to the deployment
+host, then load and start the image:
+
+```bash
+docker load -i linkedin-job-bot-image.tar
+docker compose up -d
+```
+
+Open the dashboard at [http://localhost:8080](http://localhost:8080). The image
+contains the application, Java runtime, and Java dependencies. Only the image
+build machine downloads base images and Maven dependencies; the deployment host
+needs no Java or Maven and downloads no application dependencies. Application
+data is stored in the `job-data` Docker volume and survives container
+recreation.
+
+To view logs or stop the application:
+
+```bash
+docker compose logs -f app
+docker compose down
+```
+
+`docker compose down -v` also removes the database volume and its data.
+
 ### Windows
 ```cmd
 :: Start application in new command window

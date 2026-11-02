@@ -1,0 +1,3 @@
+com/cth/sdm/service/DashboardServiceTest.class
+com/cth/sdm/repository/JobApplicationRepositoryTest.class
+com/cth/sdm/controller/JobApplicationControllerTest.class

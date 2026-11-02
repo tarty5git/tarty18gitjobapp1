@@ -1,0 +1,14 @@
+services:
+  app:
+    image: linkedin-job-bot:1.0.0
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    volumes:
+      - job-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  job-data:
