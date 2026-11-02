@@ -555,3 +555,1197 @@ Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
 Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
 Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
 Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T15:59:35.949Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T15:59:46.060Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:00:35.949Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:00:47.026Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:01:35.950Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:01:45.477Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: update bot_config set config_value=?,updated_at=? where config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: update bot_config set config_value=?,updated_at=? where config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: update bot_config set config_value=?,updated_at=? where config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: update bot_config set config_value=?,updated_at=? where config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: update bot_config set config_value=?,updated_at=? where config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:02:35.949Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:02:45.068Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:03:35.950Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:03:47.001Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:04:35.949Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:04:46.065Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:05:35.950Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:05:44.091Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:06:35.950Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:06:44.829Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:07:35.950Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+2026-11-01T16:07:37.026Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [ERROR] Error during bot execution cycle: HTTP error fetching URL. Status=429, URL=[https://sg.linkedin.com/jobs/finastra-jobs]
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:08:35.951Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:08:46.043Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:09:35.951Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:09:44.788Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:10:35.951Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:10:49.948Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:11:35.952Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:11:49.932Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:12:35.951Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:12:45.175Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:13:35.951Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:13:47.821Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:14:35.952Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:14:49.799Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:15:35.952Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:15:46.032Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:16:35.952Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:16:45.387Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:17:35.954Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:17:46.843Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:18:35.952Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:18:44.848Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:19:35.954Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:19:47.020Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+2026-11-01T16:20:35.872Z  INFO 5253 --- [linkedin-job-bot] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 42], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 2, completed tasks = 413]
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:20:35.953Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:20:45.974Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:21:35.953Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:21:43.997Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:22:35.954Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:22:45.874Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:23:35.953Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:23:45.808Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:24:35.954Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:24:46.012Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:25:35.955Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:25:44.782Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:26:35.956Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:26:45.230Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:27:35.956Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:27:45.782Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+2026-11-01T16:28:35.956Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Searching jobs in Singapore posted within 7 days
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+Hibernate: select ja1_0.id from job_applications ja1_0 where ja1_0.job_url=? fetch first ? rows only
+2026-11-01T16:28:45.916Z  INFO 5253 --- [linkedin-job-bot] [onPool-worker-1] c.cth.sdm.workflow.LinkedInBotService    : [INFO] Job search found 10 jobs; saved 0 new jobs.
+Hibernate: insert into bot_execution_logs (created_at,log_level,message,id) values (?,?,?,default)
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
+Hibernate: select bc1_0.config_key,bc1_0.config_value,bc1_0.updated_at from bot_config bc1_0 where bc1_0.config_key=?
+Hibernate: select count(*) from job_applications ja1_0
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.applied_at>=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.viewed
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select count(ja1_0.id) from job_applications ja1_0 where ja1_0.status=?
+Hibernate: select ja1_0.id,ja1_0.applied_at,ja1_0.company,ja1_0.job_title,ja1_0.job_url,ja1_0.location,ja1_0.match_score,ja1_0.notes,ja1_0.posted_at,ja1_0.poster_email,ja1_0.status,ja1_0.updated_at,ja1_0.viewed from job_applications ja1_0 order by ja1_0.posted_at desc
